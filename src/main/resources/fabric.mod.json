@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "treefalling",
+  "version": "${version}",
+  "name": "Realistic Tree Physics",
+  "description": "Makes naturally connected trees fall as a single physically simulated object when chopped.",
+  "authors": ["Mega Dreams Studios"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.megadreamsstudios.treefalling.TreeFallingMod"
+    ],
+    "client": [
+      "com.megadreamsstudios.treefalling.client.TreeFallingClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
